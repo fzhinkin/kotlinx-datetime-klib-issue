@@ -1,4 +1,4 @@
-// Targets: [iosArm64, iosSimulatorArm64, iosX64, js, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, wasmJs, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, js, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, wasmJs, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
 // Rendering settings:
 // - Signature version: 2
 // - Show manifest properties: false
@@ -44,7 +44,7 @@ final class kotlinx.datetime/FixedOffsetTimeZone : kotlinx.datetime/TimeZone { /
         final fun <get-offset>(): kotlinx.datetime/UtcOffset // kotlinx.datetime/FixedOffsetTimeZone.offset.<get-offset>|<get-offset>(){}[0]
     final val totalSeconds // kotlinx.datetime/FixedOffsetTimeZone.totalSeconds|{}totalSeconds[0]
         final fun <get-totalSeconds>(): kotlin/Int // kotlinx.datetime/FixedOffsetTimeZone.totalSeconds.<get-totalSeconds>|<get-totalSeconds>(){}[0]
-    // Targets: [iosArm64, iosSimulatorArm64, iosX64, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+    // Targets: [iosArm64, iosSimulatorArm64, iosX64, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
     final val id // kotlinx.datetime/FixedOffsetTimeZone.id|{}id[0]
         final fun <get-id>(): kotlin/String // kotlinx.datetime/FixedOffsetTimeZone.id.<get-id>|<get-id>(){}[0]
 }
@@ -103,7 +103,7 @@ final class kotlinx.datetime/LocalDate : kotlin/Comparable<kotlinx.datetime/Loca
         final fun <get-monthNumber>(): kotlin/Int // kotlinx.datetime/LocalDate.monthNumber.<get-monthNumber>|<get-monthNumber>(){}[0]
     final val year // kotlinx.datetime/LocalDate.year|{}year[0]
         final fun <get-year>(): kotlin/Int // kotlinx.datetime/LocalDate.year.<get-year>|<get-year>(){}[0]
-    // Targets: [iosArm64, iosSimulatorArm64, iosX64, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+    // Targets: [iosArm64, iosSimulatorArm64, iosX64, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
     final val month // kotlinx.datetime/LocalDate.month|<get-month>(){}[0]
         final fun <get-month>(): kotlinx.datetime/Month // kotlinx.datetime/LocalDate.month.<get-month>|<get-month>(){}[0]
     // Targets: [js, wasmJs]
@@ -441,7 +441,7 @@ open class kotlinx.datetime/TimeZone { // kotlinx.datetime/TimeZone|null[0]
     open fun equals(kotlin/Any?): kotlin/Boolean // kotlinx.datetime/TimeZone.equals|equals(kotlin.Any?){}[0]
     open fun hashCode(): kotlin/Int // kotlinx.datetime/TimeZone.hashCode|hashCode(){}[0]
     open fun toString(): kotlin/String // kotlinx.datetime/TimeZone.toString|toString(){}[0]
-    // Targets: [iosArm64, iosSimulatorArm64, iosX64, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+    // Targets: [iosArm64, iosSimulatorArm64, iosX64, linuxArm32Hfp, linuxArm64, linuxX64, macosArm64, macosX64, mingwX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
     open val id // kotlinx.datetime/TimeZone.id|{}id[0]
         open fun <get-id>(): kotlin/String // kotlinx.datetime/TimeZone.id.<get-id>|<get-id>(){}[0]
     // Targets: [js, wasmJs]
@@ -549,17 +549,17 @@ sealed class kotlinx.datetime/DateTimeUnit { // kotlinx.datetime/DateTimeUnit|nu
         }
     }
 }
-// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
 final fun (kotlinx.datetime/Instant).kotlinx.datetime/toNSDate(): platform.Foundation/NSDate // kotlinx.datetime/toNSDate|toNSDate@kotlinx.datetime.Instant(){}[0]
-// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
 final fun (kotlinx.datetime/LocalDate).kotlinx.datetime/toNSDateComponents(): platform.Foundation/NSDateComponents // kotlinx.datetime/toNSDateComponents|toNSDateComponents@kotlinx.datetime.LocalDate(){}[0]
-// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
 final fun (kotlinx.datetime/LocalDateTime).kotlinx.datetime/toNSDateComponents(): platform.Foundation/NSDateComponents // kotlinx.datetime/toNSDateComponents|toNSDateComponents@kotlinx.datetime.LocalDateTime(){}[0]
-// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
 final fun (kotlinx.datetime/TimeZone).kotlinx.datetime/toNSTimeZone(): platform.Foundation/NSTimeZone // kotlinx.datetime/toNSTimeZone|toNSTimeZone@kotlinx.datetime.TimeZone(){}[0]
-// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
 final fun (platform.Foundation/NSDate).kotlinx.datetime/toKotlinInstant(): kotlinx.datetime/Instant // kotlinx.datetime/toKotlinInstant|toKotlinInstant@platform.Foundation.NSDate(){}[0]
-// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosArm64, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
+// Targets: [iosArm64, iosSimulatorArm64, iosX64, macosArm64, macosX64, tvosArm64, tvosSimulatorArm64, tvosX64, watchosArm32, watchosDeviceArm64, watchosSimulatorArm64, watchosX64]
 final fun (platform.Foundation/NSTimeZone).kotlinx.datetime/toKotlinTimeZone(): kotlinx.datetime/TimeZone // kotlinx.datetime/toKotlinTimeZone|toKotlinTimeZone@platform.Foundation.NSTimeZone(){}[0]
 // Targets: [js, wasmJs]
 open class kotlinx.datetime.internal.JSJoda/ChronoField : kotlinx.datetime.internal.JSJoda/TemporalField { // kotlinx.datetime.internal.JSJoda/ChronoField|null[0]
